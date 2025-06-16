@@ -40,6 +40,7 @@ a {
 
 .section {
     padding: 64px 300px;
+    min-height: 450px;
 }
 
 .text {
@@ -90,13 +91,17 @@ a {
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
     padding: 36px 100px;
     min-width: 400px;
     white-space: nowrap;
 }
 
 .two .heading {
-    margin-bottom: 12px;
+    margin-bottom: 32px;
+    color: #1f2937;
+    font-size: 36px;
+    font-weight: 900;
 }
 
 .two .cards {
@@ -117,4 +122,25 @@ a {
     height: 150px;
     border: 4px solid #3882f6;
     border-radius: 12px;
+}
+
+.three {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 24px;
+    background-color: #e5e7eb;
+}
+
+.three .quote {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 100;
+    align-self: center;
+}
+
+.three .quoter {
+    font-size: 24px;
+    font-weight: 400px;
+    align-self: flex-end;
 }
