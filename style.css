@@ -144,3 +144,45 @@ a {
     font-weight: 400px;
     align-self: flex-end;
 }
+
+.four {
+    padding: 64px 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.four .card {
+    display: flex;
+    border-radius: 12px;
+    background-color: #3882f6;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 900px;
+    height: 120px;
+    padding: 28px;
+    gap: 16px;
+}
+
+.four .card .content {
+    color: #f9faf8;
+}
+
+.four .card .content .text-one {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.four .card .content .text-two {
+    font-size: 12px;
+    font-weight: 200;
+}
+
+.four .button {
+    color: #f9faf8;
+    border-radius: 4px;
+    width: 90px;
+    height: 28px;
+    background-color: #3882f6;
+    border: 1.5px solid #f9faf8;
+}
